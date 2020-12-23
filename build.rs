@@ -1,3 +1,3 @@
 fn main() {
-    println!("cargo:rustc-link-search=./src/bin");
+    println!("cargo:rustc-flags=-lgraph -Lsrc/bin");
 }
